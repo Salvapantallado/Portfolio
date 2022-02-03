@@ -1,8 +1,5 @@
 import React from "react";
 import "../styles/Home.css";
-import { resumeData } from "../resumeData,";
-
-import test from "../images/test.png";
 import Type from "../components/Typewriter";
 
 export default function Home() {

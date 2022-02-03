@@ -125,7 +125,6 @@
 
 @media screen and (max-width: 1350px) {
 	.projects-container {
-		overflow: none;
 		margin: 0;
 		height: auto;
 		padding-top: 20px;
@@ -143,13 +142,12 @@
 
 @media screen and (max-width: 875px) {
 	.projects-container {
-		overflow: none;
 		margin: 0;
 		height: auto;
 		padding-top: 0;
 	}
 	.projects-wrapper {
-		padding-bottom: 100px;
+		padding-bottom: 60px;
 	}
 	.projects-wrapper h1 {
 		font-size: 30px;
