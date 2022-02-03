@@ -28,7 +28,7 @@ export default function Footer() {
 				</a>
 			</div>
 			<div>
-				<h3>Lighuen Miranda's Website</h3>
+				<h3>Lighuen Miranda's Website - Email: lighu.miranda@gmail.com</h3>
 			</div>
 		</div>
 	);

@@ -156,12 +156,12 @@ export const resumeData = {
 			description: "Literally this very portfolio.",
 			links: [
 				{
-					link: "",
+					link: "https://lighuenm-portfolio.vercel.app",
 					icon: LinkIcon,
 					tag: "Website",
 				},
 				{
-					link: "",
+					link: "https://github.com/Salvapantallado/Portfolio",
 					icon: GithubIcon,
 					tag: "Repository",
 				},
