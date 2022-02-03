@@ -8,7 +8,7 @@ const GithubIcon = (
 );
 
 const LinkIcon = (
-	<img src="http://simpleicon.com/wp-content/uploads/link-2.png" alt="link" />
+	<img src="https://simpleicon.com/wp-content/uploads/link-2.png" alt="link" />
 );
 
 export const resumeData = {
