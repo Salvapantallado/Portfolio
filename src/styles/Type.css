@@ -5,6 +5,12 @@
 	text-decoration: underline;
 }
 
+@media screen and (max-width: 1350px) {
+	.Typewriter {
+		font-size: 25px;
+	}
+}
+
 @media screen and (max-width: 875px) {
 	.Typewriter {
 		font-size: 25px;

@@ -16,7 +16,7 @@
 .about-container h1 {
 	font-family: Courgette, cursive;
 	font-size: 50px;
-	color: white;
+	color: lightcyan;
 	text-shadow: -1px -1px 0 #000, 8px -1px 0 #000, -1px 1px 0 #000,
 		1px 1px 0 #000;
 	margin: 0;
@@ -60,6 +60,39 @@
 	margin: 15px;
 }
 
+@media screen and (max-width: 1350px) {
+	.about-container {
+		border: 3px solid white;
+		border-style: none none solid none;
+	}
+	.about-container h1 {
+		font-size: 50px;
+		text-shadow: -1px -1px 0 #000, 4px -1px 0 #000, -1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+
+	.about-container h2 {
+		font-size: 20px;
+		width: 65%;
+	}
+
+	.about-container h3 {
+		font-size: 25px;
+	}
+
+	.languages {
+		display: grid;
+		width: 90%;
+		grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
+		gap: 25px;
+		padding: 1em;
+	}
+	.languages img {
+		width: 80px;
+		margin: 5px;
+	}
+}
+
 @media screen and (max-width: 875px) {
 	.about-container {
 		padding-top: 100px;
@@ -73,7 +106,7 @@
 	}
 
 	.about-container h2 {
-		font-size: 15px;
+		font-size: 13px;
 		width: 80%;
 	}
 
@@ -83,13 +116,13 @@
 
 	.languages {
 		display: grid;
-		width: 70%;
+		width: 90%;
 		grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
 		gap: 25px;
 		padding: 1em;
 	}
 	.languages img {
-		width: 60px;
+		width: 50px;
 		margin: 5px;
 	}
 }

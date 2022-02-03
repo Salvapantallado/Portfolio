@@ -9,7 +9,7 @@
 	justify-content: center;
 	border: 2px solid white;
 	border-style: none solid none solid;
-	background: #6f2dbd;
+	background: #633294;
 }
 
 .home-container h1 {
@@ -17,7 +17,7 @@
 }
 
 .home-container strong {
-	color: white;
+	color: lightcyan;
 	text-shadow: -1px -1px 0 #000, 10px -1px 0 #000, -1px 1px 0 #000,
 		1px 1px 0 #000;
 }
@@ -58,6 +58,26 @@
 	font-size: 120px;
 }
 
+@media screen and (max-width: 1350px) {
+	.home-container {
+		border: 3px solid white;
+		border-style: none none solid none;
+	}
+	.presentation h2 {
+		font-size: 40px;
+		margin: 0;
+	}
+
+	.presentation h3 {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	.presentation h1 {
+		font-size: 80px;
+	}
+}
+
 @media screen and (max-width: 875px) {
 	.home-container {
 		border: 2px solid white;
@@ -74,6 +94,6 @@
 	}
 
 	.presentation h1 {
-		font-size: 80px;
+		font-size: 70px;
 	}
 }

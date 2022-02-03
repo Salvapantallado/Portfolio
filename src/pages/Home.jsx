@@ -17,7 +17,6 @@ export default function Home() {
 					<h2> to my portfolio!</h2>
 					<br />
 					<div>
-						<h3>My name is Lighuen Miranda and</h3>
 						<div className="type-container">
 							<h3>I'm a</h3>
 							<Type />

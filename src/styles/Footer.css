@@ -8,10 +8,10 @@
 	position: fixed;
 	bottom: 0;
 	padding-bottom: 20px;
-	width: 100vw;
+	width: 30vw;
 	z-index: 2;
 
-	pointer-events: visible;
+	pointer-events: none;
 	font-family: "Pacifico", cursive;
 	text-decoration: none;
 	font-size: 15px;
@@ -34,7 +34,7 @@
 	margin: 0;
 	color: black;
 	text-shadow: none;
-	font-family: Roboto;
+	font-family: Itim;
 }
 
 .footer {
@@ -45,6 +45,10 @@
 	gap: 15px;
 }
 
+.footer a {
+	pointer-events: visible;
+}
+
 .footer img {
 	width: 40px;
 	height: auto;
@@ -52,4 +56,22 @@
 	border-radius: 50%;
 	background-color: white;
 	border: 2px solid black;
+}
+
+@media screen and (max-width: 875px) {
+	.footer-container {
+		width: 100vw;
+	}
+	.footer-container h3 {
+		width: 70%;
+		text-align: center;
+
+		font-size: 13px;
+	}
+	.footer-container h2 {
+		font-size: 15px;
+	}
+	.footer-container img {
+		width: 20px;
+	}
 }

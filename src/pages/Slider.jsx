@@ -18,7 +18,9 @@ export default function Slider() {
 					<Projects />
 				</div>
 			</div>
-			<Footer />
+			<div className="slider-footer">
+				<Footer />
+			</div>
 		</div>
 	);
 }

@@ -17,7 +17,7 @@
 	font-family: "Pacifico", cursive;
 	text-decoration: none;
 	font-size: 30px;
-	color: #7fdeff;
+	color: #8cbae6;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 		1px 1px 0 #000;
 	margin-top: 20px;
@@ -37,7 +37,7 @@
 .image h3 {
 	margin: 0;
 	font-family: "Pacifico", cursive;
-	color: #7fdeff;
+	color: #8cbae6;
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 		1px 1px 0 #000;
 }
@@ -46,7 +46,24 @@
 	width: 130px;
 	height: auto;
 	border-radius: 100%;
-	border: 5px solid #7fdeff;
+	border: 5px solid #8cbae6;
+}
+
+@media screen and (max-width: 1350px) {
+	.navbar {
+		padding-left: 0;
+	}
+	.navbar a {
+		font-size: 30px;
+	}
+
+	.image img {
+		width: 90px;
+	}
+
+	.image h3 {
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 875px) {
