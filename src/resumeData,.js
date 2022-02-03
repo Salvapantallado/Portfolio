@@ -133,7 +133,8 @@ export const resumeData = {
 			image: "https://www.ventastotales.com.uy/api/new/css/login-email.gif",
 			title: "Log In template",
 			caption: "Front-End",
-			description: "Development of a log in webpage template.",
+			description:
+				"Development of a log in website template done in ReactJS with pure CSS.",
 			links: [
 				{
 					link: "https://loginapp-ky635ls1s-salvapantallado.vercel.app",
@@ -153,7 +154,8 @@ export const resumeData = {
 				"https://upload.wikimedia.org/wikipedia/commons/8/81/Portfolio_.gif",
 			title: "Portfolio",
 			caption: "Front-End",
-			description: "Literally this very portfolio.",
+			description:
+				"Literally this very portfolio. Done in ReactJS with pure CSS",
 			links: [
 				{
 					link: "https://lighuenm-portfolio.vercel.app",
