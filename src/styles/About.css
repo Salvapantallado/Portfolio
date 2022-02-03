@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Itim&family=Merienda&family=Pacifico&display=swap");
+
+.about-container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: #b298dc;
+	padding-top: 50px;
+	border: 2px solid white;
+	border-style: none solid none none;
+}
+
+.about-container h1 {
+	font-family: Courgette, cursive;
+	font-size: 50px;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 8px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+	margin: 0;
+}
+
+.about-container h2 {
+	width: 50%;
+	font-family: Merienda, cursive;
+	text-align: center;
+}
+
+.about-container h3 {
+	font-family: Itim;
+	font-size: 30px;
+	margin: 0;
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.about-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-bottom: 100px;
+}
+
+.languages-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+}
+
+.languages img {
+	width: 150px;
+	height: auto;
+	display: inline-flex;
+	margin: 15px;
+}
+
+@media screen and (max-width: 875px) {
+	.about-container {
+		padding-top: 100px;
+		border: 2px solid white;
+		border-style: none none solid none;
+	}
+	.about-container h1 {
+		font-size: 30px;
+		text-shadow: -1px -1px 0 #000, 4px -1px 0 #000, -1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+
+	.about-container h2 {
+		font-size: 15px;
+		width: 80%;
+	}
+
+	.about-container h3 {
+		font-size: 20px;
+	}
+
+	.languages {
+		display: grid;
+		width: 70%;
+		grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
+		gap: 25px;
+		padding: 1em;
+	}
+	.languages img {
+		width: 60px;
+		margin: 5px;
+	}
+}

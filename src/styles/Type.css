@@ -1,0 +1,12 @@
+.Typewriter {
+	font-weight: bold;
+	font-size: 40px;
+	color: #7fdeff;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 875px) {
+	.Typewriter {
+		font-size: 25px;
+	}
+}

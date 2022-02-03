@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Itim&family=Merienda&family=Pacifico&display=swap");
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	padding-bottom: 20px;
+	width: 100vw;
+	z-index: 2;
+
+	pointer-events: visible;
+	font-family: "Pacifico", cursive;
+	text-decoration: none;
+	font-size: 15px;
+	color: #7fdeff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+	backdrop-filter: blur(3px);
+}
+
+.footer-container img:hover {
+	transform: scale(1.4);
+	transition: all 0.5s ease-in-out;
+}
+
+.footer-container img {
+	transition: all 0.5s ease-in-out;
+}
+
+.footer-container h3 {
+	margin: 0;
+	color: black;
+	text-shadow: none;
+	font-family: Roboto;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.footer img {
+	width: 40px;
+	height: auto;
+	margin-top: 10px;
+	border-radius: 50%;
+	background-color: white;
+	border: 2px solid black;
+}
