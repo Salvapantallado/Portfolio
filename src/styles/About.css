@@ -2,7 +2,7 @@
 
 .about-container {
 	width: 100vw;
-	height: 100vh;
+	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -95,7 +95,6 @@
 
 @media screen and (max-width: 875px) {
 	.about-container {
-		padding-top: 100px;
 		border: 2px solid white;
 		border-style: none none solid none;
 	}
