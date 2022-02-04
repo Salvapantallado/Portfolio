@@ -22,19 +22,19 @@
 		1px 1px 0 #000;
 }
 
-.type-container {
-	display: flex;
-	flex-direction: row;
-	gap: 15px;
-	justify-content: center;
-}
-
 .card-wrapper {
 	/* border: 10px solid white; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 70%;
+}
+
+.type-container {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: flex-start;
 }
 
 .presentation {
