@@ -5,7 +5,7 @@ export default function Footer() {
 	return (
 		<div className="footer-container">
 			<div className="footer">
-				<h2>Contact me:</h2>
+				<h2>You can find me in:</h2>
 				<a
 					href="https://www.linkedin.com/in/lighuen-miranda/"
 					target="_blank"
@@ -24,6 +24,16 @@ export default function Footer() {
 					<img
 						src="https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11-1019x1024.png"
 						alt="wsp"
+					/>
+				</a>
+				<a 
+					href="https://github.com/Salvapantallado"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+						alt="github"
 					/>
 				</a>
 			</div>
