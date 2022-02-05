@@ -100,7 +100,7 @@ export const resumeData = {
 		{
 			tag: "PERN Stack",
 			image: "https://c.tenor.com/zoAruHO1nM8AAAAC/wine-red-wine.gif",
-			title: "Winery App",
+			title: "Wines Ecommerce",
 			caption: "Full-Stack",
 			description:
 				"Used technologies: Node.js, Sequelize, PostgreSQL, React, Redux and Sass",
